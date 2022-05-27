@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost/CRUD-with-ejs",{
+mongoose.connect("mongodb+srv://rajbirvision:123@cluster0.iejcl.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
